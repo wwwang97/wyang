@@ -1,0 +1,30 @@
+.tag{
+    background:#FFf;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 2px;
+}
+.tag-title h2{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.tag *{
+    margin-bottom: 10px;
+}
+
+.tag-meta{
+    border-top: 2px solid #ddd;
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 0%;
+}
+
+.tag-meta span{
+    margin-right: 5px;
+}
+
+.meta-link{
+    float:right;
+    text-decoration:none; 
+    color:#333; 
+}
