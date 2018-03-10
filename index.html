@@ -45,6 +45,21 @@
         .am-list li a{
             padding:0;
         }
+
+        .side-username{
+            line-height: 50px;
+        }
+
+        .boxes{
+            margin-top: 10px;
+            border-top: 1px solid #ddd;
+            padding-top: 9px;
+        }
+
+        .boxes li{
+            text-align: center;
+        }
+
     </style>
 </head>
 <body class="body">
@@ -82,6 +97,17 @@
     
     <div id="main" class="main">
             <div class="am-u-sm-9">
+
+                <article class="tag">
+                    <div class="am-slider am-slider-default" data-am-flexslider id="index-slider-0">
+                        <ul class="am-slides">
+                            <li><img src="D:\repository\wangdi\wyang\res\1.jpg" weight="100%" height="auto"/></li>
+                            <li><img src="D:\repository\wangdi\wyang\res\2.jpg" weight="100%" height="auto"/></li>
+                            <li><img src="D:\repository\wangdi\wyang\res\3.jpg" weight="100%" height="auto"/></li>
+                        </ul>
+                    </div>
+                </article>
+
                 <article class="tag">
                     <div class="tag-content">
                         <header class="tag-title">
@@ -196,13 +222,22 @@
                         <div class="am-panel-bd">
                                 <p>
                                     <img class="am-circle" src="./res/bin.jpg" width="50px" height="50px">
-                                    <span>风烟</span>
+                                    <span class="side-username">风烟</span>
                                 </p>
-                                <span>最近更新动态：3天前...</span>
+                                <span class="trends">最近更新动态：3天前...</span>
                                 <ul class="am-avg-sm-3 boxes">
-                                        <li class="box box-1">1</li>
-                                        <li class="box box-2">2</li>
-                                        <li class="box box-3">3</li>
+                                        <li class="box box-1">
+                                            <div>文章</div>
+                                            <div>14</div>
+                                        </li>
+                                        <li class="box box-2">
+                                            <div>文章</div>
+                                            <div>14</div>
+                                        </li>
+                                        <li class="box box-3">
+                                            <div>文章</div>
+                                            <div>14</div>
+                                        </li>
                                       </ul>
                         </div>
                     </div>
@@ -218,6 +253,21 @@
                               </ul>
 
                             </div>
+                    </div>
+
+                    <div class="am-panel am-panel-default side-right">
+                        <h3>他的标签</h3>
+                        <div class="am-panel-bd">
+                            <div><span>等级</span>7</div>
+                            <div><span>已签到</span>9</div>
+                            <div><span>累计文章</span>9</div>
+                        </div>
+                    </div>
+
+                    <div class="am-panel am-panel-default">
+                        <div class="am-panel-bd">
+                            联系我们
+                        </div>
                     </div>
             </div>
     </div>

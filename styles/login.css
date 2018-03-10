@@ -1,0 +1,58 @@
+.login-box{
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 10px;
+}
+
+.am-input-group{
+    padding: 10px;
+    width: 100%;
+}
+
+.login-header{
+    margin-bottom: 5px;
+}
+
+.login-title{
+    margin: 0 10% 30px 10%;
+    border-bottom: 1px solid #e5e5e5;
+    height: 28px;
+    text-align: center;
+}
+
+.login-title .tit{
+    height: 56px;
+    line-height: 56px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 40px;
+    background: #fff;
+    text-align: center;
+}
+.login-header h1{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.login-header p{
+    text-align: center;
+    margin: 15px 0;
+}
+
+#forget{
+    float: right;
+}
+
+.btn-login{
+    width: 45%;
+}
+
+.btn-regist{
+    width: 45%;
+    margin-left: 10%;
+    float: right;
+}
+
+.btn-reg{
+    width:100%;
+}
